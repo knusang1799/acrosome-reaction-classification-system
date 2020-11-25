@@ -47,15 +47,44 @@ https://github.com/tensorflow/models/tree/master/research/object_detection
 
 #### 5) Download the trained models in models
 
+
+ResNet-400-mag: 
+https://drive.google.com/file/d/13Cezk-9A8FZMOXIXuCA83jTWh0FUNSX8/view?usp=sharing
+
+ResNet-1000-mag: 
+https://drive.google.com/file/d/1YEg9CPAyyj3P-1jgHFDiAMcQXwOUTaNV/view?usp=sharing
+
+Incep-Res-400-mag: 
+https://drive.google.com/file/d/11UaEdgu9CMUCRxsyvtpuAJptO-Owr4dN/view?usp=sharing
+
+Incep-Res-1000-mag: 
+https://drive.google.com/file/d/1oMuq2AaDW1b4JQDXPfEYFRorcJJ7Xh41/view?usp=sharing
+
+
+### 2. Usage
+
+#### 1) Open the notebooke file
 ```
-ResNet-400-mag
-  https://drive.google.com/file/d/13Cezk-9A8FZMOXIXuCA83jTWh0FUNSX8/view?usp=sharing
-ResNet-1000-mag
-  https://drive.google.com/file/d/1YEg9CPAyyj3P-1jgHFDiAMcQXwOUTaNV/view?usp=sharing
-Incep-Res-400-mag
-  https://drive.google.com/file/d/11UaEdgu9CMUCRxsyvtpuAJptO-Owr4dN/view?usp=sharing
-Incep-Res-1000-mag
-  https://drive.google.com/file/d/1oMuq2AaDW1b4JQDXPfEYFRorcJJ7Xh41/view?usp=sharing
+jupyter notebook
+```
+Acrosome_reaction_classification_system.ipynb
+
+#### 2) Selection of the model
+You can selet one of ResNet-400-mag, ResNet-1000-mag, Incep-Res-400-mag, Incep-Res-1000-mag in the jupyter notebook file.
+e.f. If you want to use Incep-Res-400-mag, please remove # in the ```# MODEL_NAME = '/Incep-Res-400-mag.pb'```.
+```
+MODEL_NAME_DIR = 'models'
+
+# Please select the proper model
+
+MODEL_NAME = '/ResNet-400-mag.pb'
+# MODEL_NAME = '/ResNet-1000-mag.pb'
+# MODEL_NAME = '/Incep-Res-400-mag.pb'
+# MODEL_NAME = '/Incep-Res-1000-mag.pb'
+
+LABEL_NAME = '/AR_labelmap.pbtxt'
+
+PATH_TO_FROZEN_GRAPH = MODEL_NAME_DIR + MODEL_NAME
+PATH_TO_LABELS = MODEL_NAME_DIR + LABEL_NAME
 ```
 
-### 2. 
