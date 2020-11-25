@@ -1,4 +1,4 @@
-# acrosome-reaction-classification-system
+# Acrosome Reaction Classification System
 Acrosome reaction classification system (ARCS) is detecting algorithm for analysis of acrosome reaction (AR) of the mammalian sperm in the microscopic images. The ARCS repository contains trained models for detection of the AR and test images. 
 
 The codes are modified in object_detection_tutorial.ipynb of the TensorFlow Object Detection API.
