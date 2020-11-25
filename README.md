@@ -15,3 +15,16 @@ Email: knusang1799@gmail.com
 Additionally, you can download acrosome reaction classification system (ARCS) containing trained models based on ResNet 50 and Inception-ResNet v2.
     
 Github: https://github.com/knusang1799/acrosome-reaction-classification-system.git
+
+Installation of Tensorflow Object Detection API. 
+
+Installation of the ARCS
+
+1. Installation of annaconda 3
+
+please see the url:
+https://docs.anaconda.com/anaconda/install/
+
+2. Create virtual environment
+    conda create -n tensorflow1
+
