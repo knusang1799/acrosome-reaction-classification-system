@@ -49,7 +49,7 @@ or
 Download in the ```https://github.com/tensorflow/models/tree/master/research/object_detection```
 
 
-#### 5) Download the trained models in models
+#### 5) Download the trained models in ```models``` folder
 
 
 ResNet-400-mag: 
