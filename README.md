@@ -89,5 +89,6 @@ PATH_TO_LABELS = MODEL_NAME_DIR + LABEL_NAME
 ```
 
 #### 3) Evaluation of the test images
-If you execute the jupyter notebook, the models will detect AR and Non-AR sperm in the test images. (```/test_images```) folder
+If you execute the jupyter notebook, the models will detect AR and Non-AR sperm in the test images. (```/test_images```) folder.
+
 Then, the models will automatically save evaluated images in the ```/evaluated_images```. 
