@@ -39,11 +39,15 @@ conda install pillow lxml Cython jupyter matplotlib pandas
 pip install opencv-python
 ```
 
-#### 4) Dowload ARCS gihub
+#### 4) Dowload ARCS github repository
  
 ```
-https://github.com/tensorflow/models/tree/master/research/object_detection
+git clone https://github.com/tensorflow/models/tree/master/research/object_detection
 ```
+or
+
+Download in the ```https://github.com/tensorflow/models/tree/master/research/object_detection```
+
 
 #### 5) Download the trained models in models
 
