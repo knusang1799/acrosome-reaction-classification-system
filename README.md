@@ -27,6 +27,6 @@ https://docs.anaconda.com/anaconda/install/
 
 2. Create virtual environment
 
-'''
+```
 conda create -n tensorflow1
-'''
+```
