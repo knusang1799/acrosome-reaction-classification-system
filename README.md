@@ -70,8 +70,8 @@ https://drive.google.com/file/d/1oMuq2AaDW1b4JQDXPfEYFRorcJJ7Xh41/view?usp=shari
 #### 1) Open the notebooke file
 ```
 jupyter notebook
-```
 Acrosome_reaction_classification_system.ipynb
+```
 
 #### 2) Selection of the model
 You can selet one of ResNet-400-mag, ResNet-1000-mag, Incep-Res-400-mag, Incep-Res-1000-mag in the jupyter notebook file.
