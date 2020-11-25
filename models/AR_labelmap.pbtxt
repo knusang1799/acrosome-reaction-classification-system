@@ -1,0 +1,9 @@
+item {
+  id: 1
+  name: 'AR'
+}
+
+item {
+  id: 2
+  name: 'Non_AR'
+}
