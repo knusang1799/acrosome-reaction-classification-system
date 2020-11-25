@@ -18,15 +18,44 @@ Github: https://github.com/knusang1799/acrosome-reaction-classification-system.g
 
 Installation of Tensorflow Object Detection API. 
 
-Installation of the ARCS
+### 1. Installation of the ARCS
 
-1. Installation of annaconda 3
+#### 1) Installation of annaconda 3
 
 please see the url:
 https://docs.anaconda.com/anaconda/install/
 
-2. Create virtual environment
+#### 2) Create virtual environment
 
 ```
 conda create -n tensorflow1
 ```
+
+#### 3) Installation of the packages
+
+```
+conda install tensorflow == 1.14.0
+conda install pillow lxml Cython jupyter matplotlib pandas
+pip install opencv-python
+```
+
+#### 4) Dowload ARCS gihub
+ 
+```
+https://github.com/tensorflow/models/tree/master/research/object_detection
+```
+
+#### 5) Download the trained models in models
+
+```
+ResNet-400-mag
+  https://drive.google.com/file/d/13Cezk-9A8FZMOXIXuCA83jTWh0FUNSX8/view?usp=sharing
+ResNet-1000-mag
+  https://drive.google.com/file/d/1YEg9CPAyyj3P-1jgHFDiAMcQXwOUTaNV/view?usp=sharing
+Incep-Res-400-mag
+  https://drive.google.com/file/d/11UaEdgu9CMUCRxsyvtpuAJptO-Owr4dN/view?usp=sharing
+Incep-Res-1000-mag
+  https://drive.google.com/file/d/1oMuq2AaDW1b4JQDXPfEYFRorcJJ7Xh41/view?usp=sharing
+```
+
+### 2. 
