@@ -96,3 +96,10 @@ PATH_TO_LABELS = MODEL_NAME_DIR + LABEL_NAME
 If you execute the jupyter notebook, the models will detect AR and Non-AR sperm in the test images. (```/test_images```) folder.
 
 Then, the models will automatically save evaluated images in the ```/evaluated_images```. 
+
+### Examples
+
+#### 400x magnification microscopic image test
+![Incep-Res-400-mag](https://user-images.githubusercontent.com/33715221/102449210-1e62a800-4077-11eb-933b-d0d26ca24574.png)
+
+#### 1000x magnification microscopic image test
