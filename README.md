@@ -99,7 +99,8 @@ Then, the models will automatically save evaluated images in the ```/evaluated_i
 
 ### Examples
 
-#### 400x magnification microscopic image test
-![Incep-Res-400-mag](https://user-images.githubusercontent.com/33715221/102449210-1e62a800-4077-11eb-933b-d0d26ca24574.png)
+#### Testing of the 400x magnification microscopic image for detetion of the acrosome reaction by 'Incep-Res-400-mag' model
+![Incep-Res-400-mag](https://user-images.githubusercontent.com/33715221/102449474-b06ab080-4077-11eb-8b88-1f9714ac0ed8.png)
 
-#### 1000x magnification microscopic image test
+#### Testing of the 1000x magnification microscopic image for detetion of the acrosome reaction by 'Incep-Res-1000-mag' model
+![Incep-Res-1000-mag](https://user-images.githubusercontent.com/33715221/102449571-ed36a780-4077-11eb-9588-abf652707b7c.png)
