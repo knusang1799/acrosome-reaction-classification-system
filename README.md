@@ -97,10 +97,10 @@ If you execute the jupyter notebook, the models will detect AR and Non-AR sperm 
 
 Then, the models will automatically save evaluated images in the ```/evaluated_images```. 
 
-### Examples
+### 3. Examples
 
-#### Testing of the 400x magnification microscopic image for detetion of the acrosome reaction by 'Incep-Res-400-mag' model
+#### 1) Testing of the 400x magnification microscopic image by 'Incep-Res-400-mag' model
 ![Incep-Res-400-mag](https://user-images.githubusercontent.com/33715221/102449474-b06ab080-4077-11eb-8b88-1f9714ac0ed8.png)
 
-#### Testing of the 1000x magnification microscopic image for detetion of the acrosome reaction by 'Incep-Res-1000-mag' model
+#### 2) Testing of the 1000x magnification microscopic image by 'Incep-Res-1000-mag' model
 ![Incep-Res-1000-mag](https://user-images.githubusercontent.com/33715221/102449571-ed36a780-4077-11eb-9588-abf652707b7c.png)
